@@ -14,7 +14,6 @@ import AddBook from "./pages/AddBook";
 function App() {
   const auth = useAuthHook();
   const dispatch = useDispatch();
-  console.log({ auth });
   return (
     <BrowserRouter>
       {auth.authenticated && (
