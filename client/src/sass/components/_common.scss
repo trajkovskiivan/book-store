@@ -1,0 +1,77 @@
+.input-wrapper {
+  // margin: 12px 24px 12px 24px;
+  // width: 100%;
+
+  .input-component {
+    height: 4.8rem;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.8rem;
+    border-radius: 4px;
+    border: 2px solid $color-grey-dark;
+    background-color: white;
+
+    &::placeholder {
+      // size: 0.5rem;
+      color: #9899a0;
+    }
+  }
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+
+    .close {
+      cursor: pointer;
+      font-size: 3rem;
+    }
+  }
+}
+
+.visible {
+  display: block;
+}
+.invisible {
+  display: none;
+}
+
+.buttons-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .option-button-wrapper {
+    flex: 1;
+    margin: 0 10px;
+
+    .option-button {
+      background-color: $color-green;
+      width: 100%;
+      height: 4rem;
+      border: 2px solid $color-grey-dark;
+    }
+  }
+}
+
+.serch-container {
+  width: 50rem;
+  margin: 5rem 0;
+}

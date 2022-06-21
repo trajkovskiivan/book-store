@@ -1,0 +1,31 @@
+table,
+th,
+td {
+  border: 0.1rem solid;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.5rem;
+}
+
+td {
+  max-width: 30rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.action-buttons {
+  .icon-wrapper {
+    cursor: pointer;
+    height: 22px;
+    border: 1px solid black;
+    margin: 1px;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+}
